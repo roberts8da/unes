@@ -21,7 +21,7 @@ jobs:
       - name: 拉取私有仓库
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/scripts
+          repository: ${{ github.repository_owner }}/lunes
           token: ${{ secrets.REPO_TOKEN }}
           path: .
 
